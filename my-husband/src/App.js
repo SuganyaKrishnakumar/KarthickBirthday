@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import './Components/BirthdayScreen.css'
 //import Navigation from './components/Navbar';
 import Routes from './Routes';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App  center-fit">
       {/* <Navigation /> */}
       <Routes />
     </div>
