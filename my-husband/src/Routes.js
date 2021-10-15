@@ -3,6 +3,7 @@ import { Router, Switch, Route } from "react-router-dom";
 
 import Birthday from "./Components/BirthdayScreen";
 import HappyBirthday from "./Components/HappyWishes"
+import MemorableMoments from "./Components/MemorableMoments";
 //import Contact from "./Contact/Contact";
 //import Products from "./Product/Products";
 import welcome from "./Components/Welcome";
@@ -15,6 +16,7 @@ export default class Routes extends Component {
                 <Switch>
                     <Route path="/" exact component={welcome} />
                     <Route path="/HappyBirthday" component={HappyBirthday}/>
+                    <Route path="/Memorable" component={MemorableMoments}/>
                     <Route path="/Birthday" component={Birthday} />                    
                     {/* <Route path="/Contact" component={Contact} />
                     <Route path="/Products" component={Products} /> */}

@@ -6,7 +6,7 @@ import history from "./../history";
 function HappyWishes(){
     
     const onNext = ()=>{
-        history.push('/Birthday')
+        history.push('/Memorable')
     }
     return (
         <div className="wish">
@@ -15,11 +15,15 @@ function HappyWishes(){
               <p> HAPPY BIRTHDAY TO YOU </p>
             </div> */}
            <div className="night">
-           <div class="star"></div>
-            <div class="star"></div>
-            <div class="star"></div>
-            <div class="star"></div>
-            <div class="star"></div>
+           <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
+            <div className="star"></div>
            </div>
           
            <div className="wish-main">
@@ -27,6 +31,7 @@ function HappyWishes(){
                <img src = {logo192} alt="happy birthday" style={{width:'300px'}} />
                <button className='btn-wish' onClick={onNext}>Click Me</button>
             </div>
+            
                {/* </marquee> */}
         </div>
     )

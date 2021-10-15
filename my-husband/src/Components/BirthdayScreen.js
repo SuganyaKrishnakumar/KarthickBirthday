@@ -25,6 +25,10 @@ import Img20 from "./img/img20.jpg";
 import Img21 from "./img/img21.jpg";
 import Img22 from "./img/img22.jpg";
 import Img23 from "./img/img23.jpg";
+import Img24 from "./img/img24.jpg";
+import Img31 from "./img/img31.jpg";
+import Img32 from "./img/img32.jpg";
+import Img33 from "./img/img33.jpg";
 
 function BirthdayScreen(){
      
@@ -39,7 +43,7 @@ function BirthdayScreen(){
                 id:'2',
                 img: Img2,
                 width:'300px',
-                msg:"This pic was taken on 12th grade. Those are the days you stayed in hostel and enjoyed your life very much. On the same day you have taken a video which was so cute. You sang a devotee song which was really nice and more interesting. I will definetely show those videos to our son saying that your father was doing these tyoe of mischiefs"
+                msg:"This pic was taken on 12th grade. Those are the days you stayed in hostel and enjoyed your life very much. On the same day you have taken a video which was so cute. You sang a devotee song which was really nice and more interesting. I will definetely show those videos to our son saying that your father was doing these type of mischiefs"
              },
              {
                id:'03',
@@ -51,7 +55,7 @@ function BirthdayScreen(){
                 id:'3',
                 img: Img3,
                 width:'300px',
-                msg:"This pic was taken during our college 2nd year. YOu have enjoyed those days very very much i know that. "
+                msg:"This pic was taken during our college 2nd year. You have enjoyed those days very very much i know that. "
              },
              {
                 id:'4',
@@ -159,7 +163,7 @@ function BirthdayScreen(){
                id:'21',
                img: Img21,
                width:'300px',
-               msg:"This pic was taken before our marriage. This pic has more memorable moments. You have shown this photo only to your parents and your relatives for our marriage. This pic was taken in metro sagar restaurant. We went there often in those days and always order fish finger and briyani. Love you krk i loved those days where we spent most of our special time"
+               msg:"This pic was taken before our marriage. This pic has more memorable moments. This is the pic you have shown to your parents for our marriage proposal. This pic was taken in metro sagar restaurant. We went there often in those days and always order fish finger and briyani. Love you krk i loved those days where we spent most of our special time"
             },
             {
                id:'22',
@@ -172,6 +176,30 @@ function BirthdayScreen(){
                img: Img23,
                width:'300px',
                msg:"This pic was taken when you started your carrer in accenture. The friends you got that time are very best friends for you. I know you have lot of friends but those friends were very close. "
+            },
+            {
+               id:'24',
+               img: Img24,
+               width:'300px',
+               msg:"This pic was taken while you were staying in banglore. Your all time favourite burger shop. At that time you are looking so hot love your dear "
+            },
+            {
+               id:'32',
+               img: Img32,
+               width:'300px',
+               msg:"This pic was taken while you went to Goa with your friends. You enjoyed lot there. You frequently told me that you need to travel to Goa with your father. Soon this will happen dear. From Goa you bought many gifts for me. I loved all those things"
+            },
+            {
+               id:'31',
+               img: Img31,
+               width:'300px',
+               msg:"This pic was taken the day defore our marriage. You went to parlour for facial. After completing the facial there was heavy rain. But there is no use of facial it got wasted. Without doing facial itself you will be looking too hot and charming dear. Love you karthick."
+            },
+            {
+               id:'33',
+               img: Img33,
+               width:'300px',
+               msg:"This pic was taken on our 2nd anniversay. This photo is special because this is the good photo until that time you have taken with our son. You both are the one who have fullfilled my life with lot of happiness. Love you both."
             }
     ]
     const [tempImgSrc, setTempImgSrc] = useState('');
@@ -220,7 +248,7 @@ function BirthdayScreen(){
             <button onClick={closeModal} className="modelButton">X</button>
             <br/>
             <div style={{marginTop:'10px'}}>
-            <img src={tempImgSrc} alt="model" className="center-fit " style={{width:imgWidth}}/>
+            <img src={tempImgSrc} alt="model" style={{width:imgWidth}}/>
             </div>
             <div>
                <p>{tempMsg}</p>
